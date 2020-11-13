@@ -2,12 +2,15 @@ YOUTUBE TRENDING ETL PROJECT
 
 
 Project Proposal:
+
 https://docs.google.com/document/d/1g48VaWJGWbX0CZv_kYsnJjqptjK97n0sR4FLuXY7l9I/edit
 
 Research and Gathering
 We located two sources, one from Kaggle and the other from a website:
 
-Website with Video Game Trending Sales: https://www.vgchartz.com
+Website with Video Game Trending Sales: 
+
+https://www.vgchartz.com
 
 Kaggle Data located in USvideos.csv
 
@@ -22,9 +25,11 @@ PostgreSQL
 Once the tables were created, we created a Database using pgAdmin and inserted the dataframes into their respective tables using connection strings and Amazon Webservers to keep the database live.
 
 We had to update the ER Digram along the way as plans changed, leaving us with this:
+
 https://app.quickdatabasediagrams.com/#/d/2t2wGR
 
 Finally, we broke everything down and made it into Github Pages which you can find below:
+
 https://matkuhlm.github.io/CWRU_ETL_Project1/
 
 Authors:
