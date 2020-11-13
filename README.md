@@ -8,6 +8,7 @@ Research and Gathering
 We located two sources, one from Kaggle and the other from a website:
 
 Website with Video Game Trending Sales: https://www.vgchartz.com
+
 Kaggle Data located in USvideos.csv
 
 Cleaning and coallating
@@ -28,5 +29,7 @@ https://matkuhlm.github.io/CWRU_ETL_Project1/
 
 Authors:
 Brendan Rhoads (Team Lead)
+
 Matt Kuhlmann (Web Designer)
+
 Cristina Sheridan (Database Owner)
