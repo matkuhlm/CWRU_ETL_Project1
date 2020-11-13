@@ -21,10 +21,10 @@ PostgreSQL
 Once the tables were created, we created a Database using pgAdmin and inserted the dataframes into their respective tables using connection strings and Amazon Webservers to keep the database live.
 
 We had to update the ER Digram along the way as plans changed, leaving us with this:
-<Link to ERD>
+https://app.quickdatabasediagrams.com/#/d/2t2wGR
 
 Finally, we broke everything down and made it into Github Pages which you can find below:
-<link to the website> 
+https://matkuhlm.github.io/CWRU_ETL_Project1/
 
 Authors:
 Brendan Rhoads (Team Lead)
