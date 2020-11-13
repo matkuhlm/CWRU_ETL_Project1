@@ -33,6 +33,7 @@ Finally, we broke everything down and made it into Github Pages which you can fi
 https://matkuhlm.github.io/CWRU_ETL_Project1/
 
 Authors:
+
 Brendan Rhoads (Team Lead)
 
 Matt Kuhlmann (Web Designer)
