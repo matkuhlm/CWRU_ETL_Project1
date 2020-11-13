@@ -2,7 +2,7 @@ YOUTUBE TRENDING ETL PROJECT
 
 
 Project Proposal:
-
+https://docs.google.com/document/d/1g48VaWJGWbX0CZv_kYsnJjqptjK97n0sR4FLuXY7l9I/edit
 
 Research and Gathering
 We located two sources, one from Kaggle and the other from a website:
