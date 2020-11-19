@@ -1,1 +1,58 @@
-<h1>Initiate</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ETL Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1>YOUTUBE TRENDING ETL PROJECT</h1>
+
+
+<h2>Project Proposal:</h2>
+    
+    <a href="https://docs.google.com/document/d/1g48VaWJGWbX0CZv_kYsnJjqptjK97n0sR4FLuXY7l9I/edit">Here</a>
+        
+    <br>
+    <br>
+<h2>Research and Gathering </h2>
+    <p>We located two sources, one from <a href="https://www.kaggle.com/datasnaek/youtube-new?select=USvideos.csv">Kaggle</a> and the other from a <a href="https://www.vgchartz.com">website.</a>
+    
+ </p>
+    <br>
+<h2>Cleaning and Coallating </h2>
+    <p>The Youtube Data (YT Data) was in the above csv. That needed to have its date format adjusted, desired columns identified, undesired columns dropped, and put into a usable table. The data was then sent into a different dataframe with just the YT tags and the video ID. This would become a link to the new Video Game data.
+    
+    While the YT data came nicely in a csv, the Video Game Trends took much more effort. With Brendan leading the charge, the team managed to scrape just over a year's worth of trending sales off of the website with Selenium and webdriver. This data was then broken down and subdivided by game name and the date it was trending.The game name would become the key that linked the VG and YT data together.
+    <br>
+    This cleanup took a considerable amount of time.
+    </p>
+<h2>PostgreSQL </h2>
+    <p>Once the tables were created, we created a Database using pgAdmin and inserted the dataframes into their respective tables using connection strings and Amazon Webservers to keep the database live.
+    
+    We had to update the ER Digram along the way as plans changed, leaving us with <a href="https://app.quickdatabasediagrams.com/#/d/2t2wGR">this</a>  
+    </p>
+    <br>
+<h4>Link to our Database:</h4>
+    <p>
+        <a href="">HERE</a>
+    </p>
+
+
+
+<h2>Authors:</h2>
+    <br>
+    <h3>Brendan Rhoads (Team Lead & Scraping Wizard)</h3>
+    <br>
+    <h3>Matt Kuhlmann (Data Cleaner & Web Designer)</h3>
+    <br>
+    <h3>Cristina Sheridan (Database Owner)</h3>
+
+</body>
+</html>
