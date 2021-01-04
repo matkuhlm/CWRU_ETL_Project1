@@ -1,5 +1,8 @@
 YOUTUBE TRENDING ETL PROJECT 
 
+Main Data Scraping Jupyter Notebook file to be viewed first:
+https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/video_gamesBR.ipynb
+
 
 Project Proposal:
 
