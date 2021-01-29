@@ -22,11 +22,17 @@ Kaggle Data located in USvideos.csv
 Cleaning and coallating
 The Youtube Data (YT Data) was in the above csv. That needed to have its date format adjusted, desired columns identified, undesired columns dropped, and put into a usable table. The data was then sent into a different dataframe with just the YT tags and the video ID. This would become a link to the new Video Game data.
 
-While the YT data came nicely in a csv, the Video Game Trends took much more effort. With Brendan leading the charge, the team managed to scrape just over a year's worth of trending sales off of the website with Selenium and webdriver. This data was then broken down and subdivided by game name and the date it was trending.The game name would become the key that linked the VG and YT data together. 
+While the YT data came nicely in a csv, the Video Game Trends took much more effort. With Brendan leading the charge, the team managed to scrape just over a year's worth of trending sales off of the website with Selenium and webdriver.
 
 ![](https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/random/url_iterating.PNG)
 
+This data was then broken down and subdivided by game name and the date it was trending.The game name would become the key that linked the VG and YT data together. 
+
+![](https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/random/string_matching.PNG)
+
 This cleanup took a considerable amount of time. 
+
+![](https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/random/vg_sales.PNG)
 
 PostgreSQL
 Once the tables were created, we created a Database using pgAdmin and inserted the dataframes into their respective tables using connection strings and Amazon Webservers to keep the database live.
@@ -36,6 +42,8 @@ We had to update the ER Digram along the way as plans changed, leaving us with t
 https://app.quickdatabasediagrams.com/#/d/2t2wGR
 
 Finally, we broke everything down and made it into Github Pages which you can find below:
+
+
 
 https://matkuhlm.github.io/CWRU_ETL_Project1/
 
