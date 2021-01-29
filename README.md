@@ -15,7 +15,7 @@ Website with Video Game Trending Sales:
 
 https://www.vgchartz.com
 
-![](https://github.com/matkuhlm/CWRU_ETL_Project1/random/vgchartz_screenshot.PNG)
+![](https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/random/vgchartz_screenshot.PNG)
 
 Kaggle Data located in USvideos.csv
 
