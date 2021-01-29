@@ -17,7 +17,7 @@ https://www.vgchartz.com
 
 ![](https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/random/vgchartz_screenshot.PNG)
 
-Kaggle Data located in USvideos.csv
+Kaggle Data located in https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/YT_data/USvideos.csv
 
 ## Cleaning and coallating
 The Youtube Data (YT Data) was in the above csv. That needed to have its date format adjusted, desired columns identified, undesired columns dropped, and put into a usable table. The data was then sent into a different dataframe with just the YT tags and the video ID. This would become a link to the new Video Game data.
