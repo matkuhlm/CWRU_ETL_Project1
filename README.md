@@ -24,6 +24,8 @@ The Youtube Data (YT Data) was in the above csv. That needed to have its date fo
 
 While the YT data came nicely in a csv, the Video Game Trends took much more effort. With Brendan leading the charge, the team managed to scrape just over a year's worth of trending sales off of the website with Selenium and webdriver. This data was then broken down and subdivided by game name and the date it was trending.The game name would become the key that linked the VG and YT data together. 
 
+![](https://github.com/matkuhlm/CWRU_ETL_Project1/blob/main/random/url_iterating.PNG)
+
 This cleanup took a considerable amount of time. 
 
 PostgreSQL
